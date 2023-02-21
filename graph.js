@@ -232,17 +232,17 @@ d3.json("graph.json").then(function (graph) {
                 //     console.log(d)
                 // });
 
-                link
-                    .on("mouseover", focus_link)
+//                link
+//                    .on("mouseover", focus_link)
                 // link
                 //     .on("mouseover", function (d) {
                 //         console.log(this)
                 //             return d.attr("stroke", "blue");
                 //         }
                 //     )
-                    .on("mousemove", function () {
-                        return tooltip.style("top", (event.pageY - 8) + "px").style("left", (event.pageX - 8) + "px");
-                    })
+//                    .on("mousemove", function () {
+//                        return tooltip.style("top", (event.pageY - 8) + "px").style("left", (event.pageX - 8) + "px");
+//                    })
                 // .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
                 //
